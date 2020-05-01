@@ -4,6 +4,7 @@ subtitle: A project scaffold for getting building with Eleventy quickly.<br /> M
 layout: layouts/base.njk
 ---
 
+# This is a h1 title
 
 ## This site is a starting point
 
