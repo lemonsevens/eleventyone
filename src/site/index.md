@@ -5,8 +5,11 @@ layout: layouts/base.njk
 ---
 
 # This is a h1 title
+![alt text](images/my_post_images_1/hero-ho.jpg "Logo Title Text 1")
+
 
 ## This site is a starting point
+
 
 From this point we should already have:
 

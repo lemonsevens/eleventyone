@@ -1,7 +1,7 @@
     var compress_images = require('compress-images');
 
     const INPUT_path_to_your_images = 'src/img/**/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
-    const OUTPUT_path = '../../dist/images/';
+    const OUTPUT_path = '../../src/site/images/';
     
     compress_images(INPUT_path_to_your_images, OUTPUT_path, {compress_force: false, statistic: true, autoupdate: true}, false,
                                                 {jpg: {engine: 'mozjpeg', command: ['-quality', '60']}},
