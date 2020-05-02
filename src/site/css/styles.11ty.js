@@ -20,6 +20,7 @@ module.exports = class {
     return await postcss([
       // require('postcss-comment'),
       require('precss'),
+      require('autoprefixer'),
       require('postcss-import'),
       require('postcss-mixins'),
       require('postcss-color-mix'),
