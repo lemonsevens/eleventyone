@@ -1,4 +1,4 @@
-@import url(_bootstrap.min.css);
+/* @import url(_bootstrap.min.css); */
 @import url(_font-awesome.min.css);
 @import url(_owl.theme.default.min.css);
 @import url(_owl.carousel.min.css);
@@ -45,7 +45,7 @@ html {
 
 body {
   text-align: center;
-  background-color: $page-color;
+  /* background-color: $page-color; */
   color: mix($text-color, $page-color, 90%);
   font-family: sans-serif;
   font-weight: 300;
@@ -53,8 +53,8 @@ body {
   overflow-x: hidden;
   line-height: 1.8;
   min-height: 100vh;
-  background:  $page-color;
-  background: url(/images/bg-grid.png), linear-gradient(320deg, $page-color 0%, $accent-color 100%);
+  /* background:  $page-color; */
+  /* background: url(/images/bg-grid.png), linear-gradient(320deg, $page-color 0%, $accent-color 100%); */
 
   @media (min-width: $narrow) {
     font-size: 18px;
@@ -1416,7 +1416,23 @@ footer {
 
 /* Background Image */
 .bg-pngimage--1 {
-  background-image: url(../images/my_post_images_1/hero-ho-3.jpg);
+  background-image: url(../images/my_post_images_1/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.bg-pngimage--2 {
+  background-image: url(../images/my_post_images_1/hero-bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.bg-pngimage--3 {
+  background-image: url(../images/my_post_images_1/hero-bg-3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1425,11 +1441,11 @@ footer {
 
 
 
-
-
-
-
-
+img.slider_logo {
+  margin: 30px auto 100px;
+  max-width: 400px;
+  width: 100%;
+}
 
 
 

@@ -1,0 +1,9 @@
+File from: [src/img/my_post_images_1/search-512 (1).png]
+
+File to: [../../src/site/images/my_post_images_1/search-512 (1).png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\anatta\Documents\Websites\harpapp\eleventyone\node_modules\pngquant-bin\vendor\pngquant.exe --quality=20-50 -o ../../src/site/images/my_post_images_1/search-512 (1).png src/img/my_post_images_1/search-512 (1).png
+  error: Not a PNG file (libpng failed)
+  error: cannot decode image src\img\my_post_images_1\search-512 (1).png
